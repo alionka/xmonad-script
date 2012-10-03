@@ -11,7 +11,7 @@ trayer --edge top --align center --SetDockType true --SetPartialStrut true \
 # Set the background color
  
 #xsetroot -bitmap 
-feh --bg-scale /home/alionka/Pictures/background.png&
+feh --bg-scale /home/$USER/Pictures/background.png&
 # Fire up apps
  
 #gajim &
@@ -32,9 +32,4 @@ if [ -x /usr/bin/gnome-screensaver] ; then
     gnome-screensaver
 fi
 
-if [ -x /usr/bin/gnome-screensaver] ; then
-    sleep3
-    gnome-screensaver
-fi
- 
 exec .xmonad/xmonad-i386-linux
