@@ -1,5 +1,5 @@
 -- -*- haskell -*-
-import Monad (liftM)
+import Control.Monad (liftM)
 import XMonad
 import XMonad.Core
 import System.Exit

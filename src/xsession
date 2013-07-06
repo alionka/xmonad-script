@@ -14,9 +14,6 @@ trayer --edge top --align center --SetDockType true --SetPartialStrut true \
 feh --bg-scale /home/$USER/Pictures/background.png&
 # Fire up apps
  
-#gajim &
- 
-#xscreensaver -no-splash &
  
 if [ -x /usr/bin/nm-applet ] ; then
    nm-applet --sm-disable &
