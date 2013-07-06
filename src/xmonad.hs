@@ -14,6 +14,7 @@ import XMonad.Hooks.DynamicLog hiding (shorten)
 import XMonad.Actions.CycleWS
 import XMonad.Hooks.ManageDocks
 import XMonad.Hooks.EwmhDesktops
+import XMonad.Hooks.SetWMName
 import XMonad.Actions.DwmPromote
 import XMonad.Actions.UpdatePointer
 import XMonad.Hooks.UrgencyHook
@@ -254,5 +255,6 @@ defaults pipe = defaultConfig {
       -- hooks, layouts
         layoutHook         = myLayout,
         manageHook         = myManageHook,
-        logHook            = myLogHook pipe
+        logHook            = myLogHook pipe,
+	startupHook         = setWMName "LG3D"
     }
