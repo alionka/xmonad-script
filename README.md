@@ -1,4 +1,4 @@
 xmonad-script
 =============
 
-xmonad script for install and config on Debian
+xmonad script for install and config on Debian.
